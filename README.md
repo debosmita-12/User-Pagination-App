@@ -170,4 +170,6 @@ This project helped reinforce:
 
 ##  License
 
-This project is created for educational purposes as part of the **SRM University-AP Full Stack Development**.
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, distribute, and sublicense this project, provided that the original copyright and license notice are included.

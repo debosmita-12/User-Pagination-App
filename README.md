@@ -1,16 +1,185 @@
-# React + Vite
+# User Pagination App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **React + Vite** web application that fetches user data from the **Random User API** and displays it using **client-side pagination**. The application is built with reusable React components, a custom data-fetching hook, and a clean user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+##  Overview
 
-## React Compiler
+This project was developed as part of the **SRM University-AP Mid Semester Full Stack Development assignment**. It demonstrates the implementation of API integration, reusable custom hooks, React state management, and client-side pagination using modern React practices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+-  Fetches **100 users** from the Random User API
+-  Displays **10 users per page**
+-  Loading indicator while fetching data
+-  Displays:
+  - Profile Picture
+  - Full Name
+  - Email Address
+  - Country
+-  Previous Page Navigation
+-  Next Page Navigation
+-  Direct Page Number Navigation
+-  Active Page Highlighting
+-  Fully Responsive Design
+-  Reusable Custom Hook (`useFetch`)
+-  Built using React Functional Components & Hooks
+
+---
+
+##  Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React | Frontend Library |
+| Vite | Build Tool |
+| JavaScript (ES6+) | Programming Language |
+| CSS3 | Styling |
+| Random User API | User Data |
+| React Hooks | State & Lifecycle Management |
+
+---
+
+##  Project Structure
+
+```
+pagination-app/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Pagination.jsx
+│   │   └── UserCard.jsx
+│   │
+│   ├── hooks/
+│   │   └── useFetch.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+##  Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/debosmita-12/User-Pagination-App.git
+```
+
+### Navigate to the Project
+
+```bash
+cd User-Pagination-App
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Development Server
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```
+http://localhost:5173
+```
+
+---
+
+##  API Used
+
+This project uses the **Random User API**.
+
+```
+https://randomuser.me/api/?results=100
+```
+
+---
+
+##  Screenshots
+
+### Home Page
+
+> Add a screenshot here
+
+```
+screenshots/home.png
+```
+
+---
+
+##  Learning Outcomes
+
+This project helped reinforce:
+
+- React Functional Components
+- React Hooks (`useState`, `useEffect`)
+- Custom Hooks
+- REST API Integration
+- Client-Side Pagination
+- State Management
+- Component Reusability
+- Responsive UI Design
+- Clean Project Structure
+
+---
+
+##  Assignment Requirements Covered
+
+- ✔ Fetch user data from API
+- ✔ Loading State
+- ✔ Display 10 Users Per Page
+- ✔ Previous / Next Navigation
+- ✔ Page Number Navigation
+- ✔ Active Page Highlighting
+- ✔ Custom Hook (`useFetch`)
+- ✔ Responsive Layout
+- ✔ React Hooks
+- ✔ Clean Component Structure
+
+---
+
+##  Future Improvements
+
+-  Search Users
+-  Dark Mode
+-  Users Per Page Selector
+-  Sorting Users
+-  Favorite Users
+-  User Details Modal
+-  Theme Switcher
+-  Framer Motion Animations
+
+---
+
+##  Author
+
+**Debosmita Mukhopadhyay**
+
+- GitHub: https://github.com/debosmita-12
+- LinkedIn: www.linkedin.com/in/debosmita-mukhopadhyay-3b508a324
+
+---
+
+
+##  License
+
+This project is created for educational purposes as part of the **SRM University-AP Full Stack Development**.

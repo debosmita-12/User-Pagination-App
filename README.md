@@ -114,18 +114,6 @@ https://randomuser.me/api/?results=100
 
 ---
 
-##  Screenshots
-
-### Home Page
-
-> Add a screenshot here
-
-```
-screenshots/home.png
-```
-
----
-
 ##  Learning Outcomes
 
 This project helped reinforce:
